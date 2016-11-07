@@ -7,7 +7,7 @@ replace:
     package mygame;: package ${packageName};
 
 copy:
-  src/main/java/mygame/Main.java: game/src/main/java/${packagePath}/Main.java
+  game/src/main/java/mygame/Main.java: game/src/main/java/${packagePath}/Main.java
 
 delete:
   - .git/
