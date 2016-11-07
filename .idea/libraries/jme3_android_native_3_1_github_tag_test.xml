@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jme3-android-native-3.1-github-tag-test">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jMonkeyEngine.jmonkeyengine/jme3-android-native/3.1-github-tag-test/479a7209d368cef44911483d50fe6593c778adfe/jme3-android-native-3.1-github-tag-test.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jMonkeyEngine.jmonkeyengine/jme3-android-native/3.1-github-tag-test/a583c8cf30b808a743add789caf10a869ca2fef9/jme3-android-native-3.1-github-tag-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
