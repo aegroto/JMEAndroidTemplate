@@ -59,8 +59,8 @@ dependencies {
         exclude module: "jme3-desktop"
     }
     
-    compile 'com.github.jMonkeyEngine.jmonkeyengine:jme3-android:3.1-github-tag-test'    
-    compile 'com.github.jMonkeyEngine.jmonkeyengine:jme3-android-native:3.1-github-tag-test' 
+    compile 'com.github.jMonkeyEngine.jmonkeyengine:jme3-android:'+jmeversion   
+    compile 'com.github.jMonkeyEngine.jmonkeyengine:jme3-android-native:'+jmeversion 
 
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'

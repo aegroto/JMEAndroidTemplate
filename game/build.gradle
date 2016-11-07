@@ -3,7 +3,7 @@ apply plugin: 'java'
 sourceCompatibility = '1.7'
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
-ext.jmeversion="SNAPSHOT"
+def jmeversion="SNAPSHOT"
 ext.mainClass = 'mygame.Main'
 
 /*if (!hasProperty('mainClass')) {
@@ -16,10 +16,10 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.jMonkeyEngine.jmonkeyengine:jme3-core:'+ext.jmeversion
-    compile 'com.github.jMonkeyEngine.jmonkeyengine:jme3-desktop:'+ext.jmeversion
-    compile 'com.github.jMonkeyEngine.jmonkeyengine:jme3-lwjgl:'+ext.jmeversion
-    compile 'com.github.jMonkeyEngine.jmonkeyengine:jme3-android:'+ext.jmeversion
+    compile 'com.github.jMonkeyEngine.jmonkeyengine:jme3-core:'+jmeversion
+    compile 'com.github.jMonkeyEngine.jmonkeyengine:jme3-desktop:'+jmeversion
+    compile 'com.github.jMonkeyEngine.jmonkeyengine:jme3-lwjgl:'+jmeversion
+    compile 'com.github.jMonkeyEngine.jmonkeyengine:jme3-android:'+jmeversion
     
     testCompile group: 'junit', name: 'junit', version: '4.10'
 }
