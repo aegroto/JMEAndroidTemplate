@@ -1,1 +1,7 @@
 /build
+/.gradle
+/.idea
+/.nb-gradle
+/gradle
+/private
+/.nb-gradle-properties
