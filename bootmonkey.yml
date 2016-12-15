@@ -1,11 +1,11 @@
 replace:
   build.gradle:
-    applicationId 'com.mycompany.mygame':applicationId '${packageName}'
-	JMEVERSION:${jmeVersion}
+    applicationId 'com.mycompany.mygame': applicationId '${packageName}'
+	JMEVERSION: ${jmeVersion}
 
   game/build.gradle:
     mainClassName='mygame.Main': mainClassName='${packageName}.Main'
-    JMEVERSION:${jmeVersion}
+    JMEVERSION: ${jmeVersion}
 
   game/src/main/java/mygame/Main.java:
     package mygame;: package ${packageName};
