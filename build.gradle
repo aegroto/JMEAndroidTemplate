@@ -53,7 +53,7 @@ android {
     }
 }
 
-def jmeversion="3.1-github-tag-test"
+def jmeversion="JMEVERSION"
 
 dependencies {
     compile (project(":game")) {
