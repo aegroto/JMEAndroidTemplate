@@ -1,9 +1,9 @@
 replace:
-  build.gradle:
+  game/build.gradle:
     mainClassName='mygame.Main': mainClassName='${packageName}.Main'
-    ext.jmeVersion\s*=\s*.*: ext.jmeVersion = '${jmeVersion}'
+    jmeversion\s*=\s*.*: jmeversion = '${jmeVersion}'
 
-  src/main/java/mygame/Main.java:
+  game/src/main/java/mygame/Main.java:
     package mygame;: package ${packageName};
 
 copy:
