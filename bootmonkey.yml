@@ -1,4 +1,6 @@
 replace:
+  build.gradle:
+    applicationId "com.mycompany.mygame": applicaionId "${packageName}"
   game/build.gradle:
     mainClassName='mygame.Main': mainClassName='${packageName}.Main'
     jmeversion\s*=\s*.*: jmeversion = '${jmeVersion}'
