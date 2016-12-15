@@ -22,7 +22,7 @@ android {
     buildToolsVersion "24.0.2"
 
     defaultConfig {
-        applicationId "com.mycompany.mygame"
+        applicationId 'com.mycompany.mygame'
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
@@ -53,7 +53,7 @@ android {
     }
 }
 
-def jmeversion="JMEVERSION"
+def jmeversion='JMEVERSION'
 
 dependencies {
     compile (project(":game")) {
