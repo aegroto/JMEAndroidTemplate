@@ -4,7 +4,7 @@ replace:
     JMEVERSION: ${jmeVersion}
     
    src/main/AndroidManifest.xml:
-    package="com.mycompany.mygame": package="${packageName}"
+    package="com.mycompany.mygame": package='${packageName}'
     
   game/build.gradle:
     ext.mainClass = 'mygame.Main': ext.mainClass = '${packageName}.Main'
