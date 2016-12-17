@@ -1,20 +1,18 @@
 replace:
   build.gradle:
-    applicationId 'com.mycompany.mygame': applicationId '${packageName}'
+    com.mycompany.mygame: ${packageName}
     JMEVERSION: ${jmeVersion}
     
    src/main/AndroidManifest.xml:
-    package="com.mycompany.mygame": package='${packageName}'
+    com.mycompany.mygame: ${packageName}
     
   game/build.gradle:
-    ext.mainClass = 'mygame.Main': ext.mainClass = '${packageName}.Main'
-    mainClassName='mygame.Main': mainClassName='${packageName}.Main'
+    mygame.Main: ${packageName}.Main
     JMEVERSION: ${jmeVersion}
 
   src/main/java/com/mycompany/mygame/MainActivity.java:
-    package com.mycompany.mygame;: package ${packageName};
-    import com.mycompany.mygame.R;: import ${packageName}.R;
-    appClass = "mygame.Main";: appClass = "${packageName}.Main";
+    com.mycompany.mygame: ${packageName}
+    mygame.Main: ${packageName}.Main;
     
   game/src/main/java/mygame/Main.java:
     package mygame;: package ${packageName};
