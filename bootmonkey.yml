@@ -16,8 +16,9 @@ replace:
 
 copy:
   game/src/main/java/mygame/Main.java: game/src/main/java/${packagePath}/Main.java
-  src/main/java/com/mycompany/mygame/MainActivity.java:: src/main/java/${packagePath}/MainActivity.java
+  src/main/java/com/mycompany/mygame/MainActivity.java: src/main/java/${packagePath}/MainActivity.java
 
 delete:
   - .git/
   - game/src/main/java/mygame/
+  - src/main/java/com/mycompany
