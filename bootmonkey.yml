@@ -2,7 +2,9 @@ replace:
   build.gradle:
     applicationId 'com.mycompany.mygame': applicationId '${packageName}'
     JMEVERSION: ${jmeVersion}
+    
   game/build.gradle:
+    ext.mainClass = 'mygame.Main': ext.mainClass = '${packageName}.Main'
     mainClassName='mygame.Main': mainClassName='${packageName}.Main'
     JMEVERSION: ${jmeVersion}
 
