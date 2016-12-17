@@ -3,6 +3,9 @@ replace:
     com.mycompany.mygame: ${packageName}
     JMEVERSION: ${jmeVersion}
     
+  src/main/AndroidManifest.xml:
+    com.mycompany.mygame: ${packageName}
+    
   game/build.gradle:
     mygame.Main: ${packageName}.Main
     JMEVERSION: ${jmeVersion}
