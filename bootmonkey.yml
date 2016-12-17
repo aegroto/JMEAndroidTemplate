@@ -3,6 +3,9 @@ replace:
     applicationId 'com.mycompany.mygame': applicationId '${packageName}'
     JMEVERSION: ${jmeVersion}
     
+   AndroidManifest.xml:
+    package="com.mycompany.mygame": package="${packageName}"
+    
   game/build.gradle:
     ext.mainClass = 'mygame.Main': ext.mainClass = '${packageName}.Main'
     mainClassName='mygame.Main': mainClassName='${packageName}.Main'
