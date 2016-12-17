@@ -21,4 +21,3 @@ copy:
 delete:
   - .git/
   - game/src/main/java/mygame/
-  - src/main/java/com/mycompany
