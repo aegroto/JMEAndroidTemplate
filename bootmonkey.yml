@@ -9,7 +9,9 @@ replace:
     JMEVERSION: ${jmeVersion}
 
   src/main/java/com/mycompany/mygame/MainActivity.java:
+    package com.mycompany.mygame;: package ${packageName};
     import com.mycompany.mygame.R;: import ${packageName}.R;
+    appClass = "mygame.Main";: appClass = "${packageName}.Main";
     
   game/src/main/java/mygame/Main.java:
     package mygame;: package ${packageName};
