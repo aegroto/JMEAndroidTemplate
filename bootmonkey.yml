@@ -3,7 +3,7 @@ replace:
     applicationId 'com.mycompany.mygame': applicationId '${packageName}'
     JMEVERSION: ${jmeVersion}
     
-   AndroidManifest.xml:
+   src/main/AndroidManifest.xml:
     package="com.mycompany.mygame": package="${packageName}"
     
   game/build.gradle:
