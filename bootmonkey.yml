@@ -8,12 +8,16 @@ replace:
     mainClassName='mygame.Main': mainClassName='${packageName}.Main'
     JMEVERSION: ${jmeVersion}
 
+  src/main/java/mygame/MainActivity.java:
+    import com.mycompany.mygame.R;: import ${packageName}.R;
   game/src/main/java/mygame/Main.java:
     package mygame;: package ${packageName};
 
 copy:
   game/src/main/java/mygame/Main.java: game/src/main/java/${packagePath}/Main.java
+  src/main/java/mygame/MainActivity.java: src/main/java/${packagePath}/MainActivity.java
 
 delete:
   - .git/
   - game/src/main/java/mygame/
+  - src/main/java/mygame/
