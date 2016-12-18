@@ -8,6 +8,9 @@ replace:
     
   src/main/res/layout/main.xml:
     com.mycompany.mygame: ${packageName}
+	
+  src/main/res/values/strings.xml:
+	MyGame: ${projectName}
     
   game/build.gradle:
     mygame.Main: ${packageName}.Main
@@ -15,7 +18,7 @@ replace:
 
   src/main/java/com/mycompany/mygame/MainActivity.java:
     com.mycompany.mygame: ${packageName}
-    mygame.Main: ${packageName}.Main;
+    mygame.Main: ${packageName}.Main
     
   game/src/main/java/mygame/Main.java:
     package mygame: package ${packageName}
