@@ -10,7 +10,7 @@ replace:
     com.mycompany.mygame: ${packageName}
 	
   src/main/res/values/strings.xml:
-	MyGame: ${projectName}
+	MyGame: JMEGame
     
   game/build.gradle:
     mygame.Main: ${packageName}.Main
