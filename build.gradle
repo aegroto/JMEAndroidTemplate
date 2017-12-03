@@ -62,7 +62,7 @@ dependencies {
         exclude module: "jme3-desktop"
     }
     
-    compile jmerepo + 'jme3-android:' + jmeversion
+    compile jmerepo + ':jme3-android:' + jmeversion
     compile jmerepo + ':jme3-android-native:' + jmeversion
 
     testCompile 'junit:junit:4.12'
