@@ -1,6 +1,6 @@
 # JMEAndroid Template
 
-This an Android Project boilerplate for a game built on [**JMonkeyEngine**](https://github.com/jMonkeyEngine/jmonkeyengine/) using gradle. It includes only base libraries,the JMonkeyEngine's BasicGame project,any more specific setting should be configure by yourself to satisfy your needs.
+This is an Android Project boilerplate for a game built on [**JMonkeyEngine**](https://github.com/jMonkeyEngine/jmonkeyengine/) using gradle. It includes only base libraries,the JMonkeyEngine's BasicGame project,any more specific setting should be configure by yourself to satisfy your needs.
 
 This is home-made. Released under [**Zlib-libpng license**](https://tldrlegal.com/license/zlib-libpng-license-(zlib)). I provide this software without any warranty. If you find bugs,report it with an issue or just fix it and send a pull request (the second would be better :) ).
 
