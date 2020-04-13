@@ -2,7 +2,6 @@
 /.gradle
 /.idea
 /.nb-gradle
-/gradle
 /private
 /.nb-gradle-properties
 bootmonkey_backup.yml
