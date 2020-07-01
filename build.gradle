@@ -1,10 +1,11 @@
 buildscript {
     repositories {
         jcenter()
+        google()
     }
     
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.0'
+        classpath 'com.android.tools.build:gradle:3.0.1'
     }
 }
 
@@ -14,17 +15,18 @@ allprojects {
     repositories {
         jcenter()
 	maven { url "https://jitpack.io" }
+        google()
     }
 }
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "24.0.2"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
 
     defaultConfig {
         applicationId 'com.mycompany.mygame'
-        minSdkVersion 15
-        targetSdkVersion 23
+        minSdkVersion 21
+        targetSdkVersion 26
         versionCode 1
         versionName "1"
     }
@@ -54,7 +56,7 @@ android {
 }
 
 def jmerepo='org.jmonkeyengine'
-def jmeversion='JMEVERSION'
+def jmeversion='[3.1,)'
 
 dependencies {
     compile (project(":game")) {
@@ -66,7 +68,7 @@ dependencies {
     compile jmerepo + ':jme3-android-native:' + jmeversion
 
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:appcompat-v7:26.1.0'
 }
 
 task copyAssets {
